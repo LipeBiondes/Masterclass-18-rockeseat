@@ -1,0 +1,78 @@
+- Buscando e selecionando elementos
+
+->  document.getElementById(return element)
+->  document.getElementsByClassName(returns HTMLCollection)
+->  document.getElementByTagName(return HTMLCollection)
+->  document.querySelector(returns element)
+->  document.querySelectorAll(returns NodeList)
+
+- Manipulando conteúdo
+
+->  .textContent
+->  .InnerText
+->  .InnerHTML
+->  .value (inputs)
+
+- Alterando estilos
+
+->  .style.property(camelCase)
+
+    -  .classList:
+    ->  .add()
+    ->  .remove()
+    ->  .toggle()
+
+- Navegando pelos elementos
+
+    -   Parents:
+    ->  .parentNode
+    ->  .parentElement
+            
+    -   Children:
+    ->  .childNodes
+    ->  .children
+    ->  .childElementCount
+    ->  .firstChild
+    ->  .firstElementChild
+    ->  .lastChild / .lastElementChild
+    ->  .remove()
+
+-   Siblings:
+    ->  .nextSibling
+    ->  .nextElementSibling
+    ->  .previousSibling
+    ->  .previousElementsSibling
+
+- Criando Elementos
+    -> .createElement()
+
+- Trabalhando com propriedades dos elementos
+    ->  .setAtribute()
+    ->  .getAtribute()
+    ->  .removeAtribute()
+
+- Inserindo elementos HTML
+    ->  .insertBefore()
+    ->  .insertAfter()
+    ->  .append / .appendChild()
+    ->  .prepend()
+
+- Eventos
+    -   .addEventListener()
+    ->  load
+    ->  click
+    ->  scroll
+    ->  keyDown
+    ->  change
+    ->  submit
+
+- event
+    -target
+    ->  id
+    ->  className
+
+- Type
+- cienteX / clienteY (relative to document)
+- offsetX / offsetY (relative to element)
+-preventDefault()
+
